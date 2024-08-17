@@ -1,0 +1,242 @@
+@media (max-width: 1200px) {
+
+    .header_wrapper .nav-item .nav-link{
+        font-size: 1.1rem;
+    }
+
+    .home-content h3{
+        font-size: 2.5rem;
+    }
+
+    .home-content h1{
+        font-size: 4.2rem;
+    }
+
+    .home-content p{
+        font-size: 1.2rem;
+    }
+
+    .rounded-img {
+        width: 50vw; 
+        height: 50vw; 
+    }
+
+    .social-icon  a {
+        font-size: 1.5rem;
+    }
+
+    .about_wrapper{
+        padding: 180px 0;
+    }
+
+    .contact_wrapper{
+        padding: 130px 0;
+    }
+
+}
+
+
+@media (max-width: 991px){
+    .header_wrapper .menu-navbar-nav{
+        text-align: center;
+        background-color: var(--bg-color);
+        padding-bottom: 15px;
+    }
+
+    .navbar{
+        z-index: 100;
+    }
+
+    .header_wrapper .nav-item .nav-link{
+        margin-top: 15px;
+        animation: slideBottom 1s ease-out forwards;
+    }
+
+    .rounded-img{
+        width: 40vw;
+        height: 40vw;
+        margin-bottom: 20px;
+    }
+
+    .card_img{
+        width: 60%;
+    }
+
+}
+
+@media (max-width: 768px){
+    .home-content h3{
+        font-size: 2rem;
+    }
+
+    .home-content h1{
+        font-size: 3.5rem;
+    }
+
+    .home-content p{
+        font-size: 1.1rem;
+    }
+
+    .rounded-img {
+        width: 45vw; 
+        height: 45vw; 
+        margin-bottom: 20px;
+    }
+
+    .about_wrapper{
+        padding: 170px 0;
+    }
+
+    .about_wrapper .card-detail{
+        top: 45px;
+    }
+
+    .skill_wrapper{
+        padding: 170px 0;
+    }
+
+    .portfolio_wrapper{
+        padding: 170px 0;
+    }
+
+    .contact_wrapper{
+        padding: 120px 0;
+    }
+}
+
+@media (max-width: 617px){
+    .rounded-img {
+        width: 55vw; 
+        height: 55vw; 
+    }
+
+    .about-content{
+        margin-top: 6rem;
+    }
+
+    .skill_wrapper{
+        padding-top: 140px;
+        padding-bottom: 100px;
+    }
+
+    .portfolio_wrapper{
+        padding: 140px 0;
+    }
+
+
+
+}
+
+@media (max-width: 450px){
+
+    .header_wrapper .navbar-brand{
+        font-size: 2.5rem;
+    }
+
+    .header_wrapper .nav-item .nav-link{
+        font-size: 1rem;
+    }
+
+    .home-content{
+        padding-top: 200px;
+    }
+
+    .rounded-img {
+        width: 65vw; 
+        height: 65vw; 
+        border-width: 10px;
+    }
+
+    .home-content h3{
+        font-size: 1.8rem;
+    }
+
+    .home-content h1{
+        font-size: 3rem;
+    }
+
+    .home-content p{
+        font-size: 1rem;
+    }
+
+
+    .social-icon  a {
+        font-size: 1.5rem;
+        height: 3rem;
+         width: 3rem;
+         margin-top: 15px;
+    }
+
+    .card_img img{
+        display: none;
+    }
+
+    .card_img{
+        border: none;
+    }
+
+    .about_wrapper{
+        padding: 135px 0;
+    }
+
+    .about_wrapper .card-detail{
+        position: unset;
+        width: 100%;
+    }
+
+    .about-content{
+        margin-top: 2rem;
+    }
+
+    .heading{
+        font-size: 2.9rem;
+    }
+
+    .title{
+        font-size: 1.8rem;
+    }
+
+    .service_wrapper{
+        padding: 120px 0;
+    }
+
+    .service_wrapper h3{
+        font-size: 2rem;
+    }
+
+    .skill_wrapper{
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+
+    .contact_wrapper{
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+
+    .contact_wrapper input{
+        height: 3.5rem;
+    }
+
+    .contact_wrapper textarea{
+        height: 20rem;
+    }
+
+    .up-btn{
+        padding: .4rem .6rem;
+        bottom: 40px;
+        right: 30px;
+    }
+
+    .up-btn a i{
+        font-size: 2rem;
+    }
+
+    .main-btn{
+        padding: 1rem 2rem;
+    }
+
+    .copyright-text{
+        font-size: 1rem;
+    }
+}
