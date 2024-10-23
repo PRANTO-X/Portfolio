@@ -32,7 +32,7 @@ progressBars.forEach((progressBar) => {
     let progress = setInterval(() => {
         progressValue++;
         valueContainer.textContent = `${progressValue}%`;
-        progressBar.style.background = `conic-gradient(#ffb300 ${progressValue * 3.6}deg,#000 ${progressValue * 3.6}deg)`;
+        progressBar.style.background = `conic-gradient(#0ef ${progressValue * 3.6}deg,#000 ${progressValue * 3.6}deg)`;
 
         if (progressValue == progressEndValue) {
             clearInterval(progress);
