@@ -19,11 +19,8 @@ navLink.forEach(function (a) {
     });
 });
 
-// nav tracker
-
+// Nav Tracker
 let sections = document.querySelectorAll("section");
-let navLinks = document.querySelectorAll("nav li a");
-
 window.onscroll = () => {
     sections.forEach((sec) => {
         let sectionTop = sec.getBoundingClientRect().top;
@@ -31,7 +28,7 @@ window.onscroll = () => {
         let id = sec.getAttribute("id");
 
         if (sectionTop <= window.innerHeight / 2 && sectionTop + sectionHeight >= window.innerHeight / 2) {
-            navLinks.forEach((link) => link.classList.remove("active"));
+            navLink.forEach((link) => link.classList.remove("active"));
             document.querySelector(`nav li a[href*="${id}"]`).classList.add("active");
         }
     });
